@@ -1,3 +1,4 @@
 name = 'John'
 surname = 'Mecia'
-print('hello ' + name + ' ' + surname)
+color = 'Blue'
+print('hello ' + name + ' ' + surname + ' ' + color)
