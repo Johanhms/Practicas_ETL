@@ -1,2 +1,3 @@
 name = 'John'
-print('hello ' + name)
+surname = 'Mecia'
+print('hello ' + name + ' ' + surname)
