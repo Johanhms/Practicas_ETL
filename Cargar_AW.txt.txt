@@ -1,0 +1,10 @@
+C:\Users\johan\AdventureWorks-oltp-install-script
+
+ruby update_csvs.rb
+
+cd "C:\Program Files\PostgreSQL\17\bin"
+
+psql -U postgres -c "CREATE DATABASE \"Adventureworks\";"
+
+psql -U postgres -d Adventureworks -f "C:\Users\johan\AdventureWorks-oltp-install-script\install.sql"
+
