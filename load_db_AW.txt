@@ -1,4 +1,4 @@
-C:\Users\johan\AdventureWorks-oltp-install-script
+cd C:\Users\johan\AdventureWorks-oltp-install-script
 
 ruby update_csvs.rb
 
