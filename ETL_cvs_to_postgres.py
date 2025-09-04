@@ -5,7 +5,7 @@ import psycopg2
 server = '127.0.0.1'
 db = 'retail_db'
 usr = 'postgres'
-passw = 'Mancity01.'
+passw = 'password'
 port = '5432'
 ft = 'employee'
 
