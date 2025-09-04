@@ -8,7 +8,7 @@ esquema_db = 'humanresources'
 host = 'localhost'
 dbname = 'Adventureworks'
 user = 'postgres'
-password = 'Mancity01.'
+password = 'password'
 port = '5432'
 
 def cargar_csv_a_postgres(ruta_csv, nombre_tabla, esquema_db, host, dbname, user, password, port):
