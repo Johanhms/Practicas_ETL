@@ -7,7 +7,7 @@ tablas_a_mover = ['categories', 'customers']
 host = 'localhost'
 dbname = 'retail_db'
 user = 'postgres'
-password = 'Mancity01.'
+password = 'password'
 port = '5432'
 
 def mover_tablas_entre_esquemas(esquema_origen, esquema_destino, tablas_a_mover, host, dbname, user, password, port):
@@ -74,7 +74,7 @@ if __name__ == '__main__':
     DB_HOST = 'localhost' 
     DB_NAME = 'retail_db'  # Cambia esto al nombre de tu BD
     DB_USER = 'postgres'
-    DB_PASSWORD = 'Mancity01.' # ¡Cambia esto por tu contraseña!
+    DB_PASSWORD = 'password' # ¡Cambia esto por tu contraseña!
     DB_PORT = "5432"
 
     # --- Configuración del proceso de movimiento ---
